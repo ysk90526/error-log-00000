@@ -6,7 +6,9 @@
    <h1><span>E</span>rror<span>L</span>og</h1>
  </div>
  <div class="icon">
+   <%= link_to destroy_user_session_path, class: 'btn', method: :delete do %>
      <i class="fas fa-sign-out-alt"></i>
+   <% end %>
    <i class="fas fa-users"></i>
    <i class="fas fa-file"></i>
   </div>
